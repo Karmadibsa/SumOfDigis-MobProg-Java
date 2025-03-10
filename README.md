@@ -37,3 +37,5 @@ Le projet contient deux fichiers principaux :
 ## Prérequis
 - Java 8 ou supérieur
 - JUnit 5 pour exécuter les tests
+
+Organisé et animé par MOMPER Axel
