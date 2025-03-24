@@ -3,13 +3,13 @@ run-name: Job started by ${{ github.actor }}
 on: [push]
 jobs:
   Maven-Test:
-  runs-on: ubuntu-latest
-  steps:
-    - uses: actions/checkout@v4
-    - name: Setup Java
-      uses: actions/setup-java@v4
-      with:
-        distribution: 'temurin'
-        java-version: '23'
-    - name: run tests
-      run: mvn clean test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '23'
+      - name: run tests
+        run: mvn clean test
