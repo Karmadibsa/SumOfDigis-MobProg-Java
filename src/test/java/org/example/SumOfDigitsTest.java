@@ -11,6 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class
 SumOfDigitsTest {
 
+    
     @Test
     void testInitialImplementation() {
         assertEquals(0, SumOfDigits.calculFinalDigits(0));
